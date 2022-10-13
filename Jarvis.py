@@ -119,7 +119,7 @@ if __name__ == "__main__":
         elif "repeat after me" in query:
             query = query.replace("repeat after me","")
             speak(query)
-
+#to stop the desktop assistant:
         elif 'bye' or 'stop' in query:
             exit()
         
